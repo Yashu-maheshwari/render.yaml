@@ -1,0 +1,6 @@
+# Use the official n8n Docker image as the base
+FROM n8nio/n8n
+
+# (Optional) If you need to install custom community nodes, you can add them here.
+# For example, to install a WhatsApp node:
+# RUN npm install n8n-nodes-whatsapp-web-api
